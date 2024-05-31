@@ -1,0 +1,592 @@
+@import url(https://db.onlinewebfonts.com/c/e193c5fc6e83a0bf73e905acba5146dd?family=Gibson-SemiBold);
+
+@font-face {
+    font-family: "Gibson-SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.eot");
+    src: url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e193c5fc6e83a0bf73e905acba5146dd.svg#Gibson-SemiBold")format("svg");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Basic styles for body and header */
+body {
+    
+    font-family: "Gibson-SemiBold" ,sans-serif;
+}
+
+
+
+/* logo department */
+
+
+.logo img {
+    width: 12.99vw;
+    height: 8.99vh;
+    margin-left: 100px;
+    display: flex;
+   margin-top: 10px;
+    z-index: 111;
+    
+}
+
+
+
+/* Logo department end here  */
+
+/* List of nav */
+
+
+/
+
+  nav{
+    z-index: 11;
+    
+  }
+  
+
+nav .Menu{
+  
+    background-color:transparent;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0 6vw;
+     z-index: 111; 
+}
+nav .Menu .items{
+    display: flex;
+    gap: 2vw;
+    margin-left: 5vw;
+    z-index: 11;
+    margin-top: 10px;
+}
+.items .navItem a img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 2vmin;
+    height: 1.2vh;
+    
+}
+.items .navItem a:hover img{
+    transform: rotate(180deg);
+}
+nav .Menu .items a{
+    color: white;
+    font-size: 0.8vw;
+    
+    
+}
+nav .Menu .items a:hover{
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 5px;
+    color: goldenrod;
+}
+
+
+
+/* search part*/
+
+
+.search-icon input{
+   
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    outline: none;
+   z-index: 11;
+}
+
+.search-icon span{
+    color: white;
+    cursor: pointer;
+   margin-right: 1vw;
+   z-index: 11;
+}
+::placeholder{
+    color: gainsboro;
+}
+
+
+/* Search part end here */
+
+.toggle_btn{
+    display: none;
+    color: white;
+    width: 23.99px;
+    height: 23.99px;
+   cursor: pointer;
+}
+
+
+/* cross icon */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    gap: 10vw;
+   
+}
+.card{
+    width: 325px;   
+    background-color: #d8ccdb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.5);
+    margin: 20px;
+    background-image: url("images/asset 48.png");
+    background-size: cover;
+    background-position: center;
+    height: 20vw;
+    width: 18vw;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.card .photo1{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vw;
+    margin-left: -1vw;
+}
+
+.card .photo2{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vw;
+    margin-left: -1vw;
+}
+.card .photo3{
+    width: 15vw;
+    height: 18vh;
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+}
+.card-content{
+    padding: 1vw;
+
+}
+.card span{
+    font-size: 1.5vw;
+    color:#3b0073;
+    background-color: #d0a651;
+    border-radius: 5px;
+    padding: 0px 5px 5px 5px;
+    margin-left: 2vw;
+    
+}
+.card-content p{
+    color: white;
+    text-align: center;
+}
+
+/* video part */
+
+
+.video-container{
+    z-index: -11;
+    
+}
+video{
+   
+    width:100%;
+    height:100%;
+
+    z-index: -10;
+} 
+
+.new-creation{
+    background-color:white;
+    width: 99vw;
+    height: 100px;
+    margin-top: 18vw;
+    color: #3b0073;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: "Gibson-SemiBold" ,sans-serif;
+    font-size: 1.6vw;
+    display: flex;
+    flex-direction: column;
+}
+.new-creation h5{
+    color: grey;
+    font-family: "Gibson-SemiRegular" ,sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 2vw;
+}
+
+/* video part end here */
+
+
+/* text block */
+
+.text {
+display: flex;
+margin-top: -34vw;
+margin-left: 22vw;
+flex-direction: column;
+font-family: "Gibson-SemiBold" ,sans-serif;
+z-index: 1;
+
+}
+.text .big-text{
+    color:  #f1cd76;
+    font-size: 4vw;
+    line-height: 3.5vw;
+    
+    
+}
+
+
+.text .small-text{
+    color: white;
+    display: flexbox;
+    
+    
+    font-family: "Gibson-Regular" ,sans-serif;
+    font-size: 0.9vw;
+} 
+.text .discover-more{
+    background-color: #f1cd76;
+    color: #3b0073;
+    border-radius: 20px;
+    width: 14vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: 1px solid white;
+    font-family: "Gibson-SemiBold" ,sans;
+    background-image: linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2);
+    
+     margin-top: 20px;
+  
+}
+
+.purrple{
+    display: none;
+}
+
+.image-text{
+    width: 100%;
+    height: 30vw;
+    background-color: #3b0073;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-text .left-div img{
+   height: 30vw;
+}
+
+.image-text .right-div p{
+    margin-top: 6vw;
+  
+    z-index: 11;
+}
+.image-text .right-div{
+    color: white;
+    
+    margin-left: 20vw;
+}
+.image-text .right-div .button-div{
+    margin-top: -10vh;
+    margin-left: 15vw;
+}
+.image-text button{
+    width: 8vw;
+    height: 2vw;
+    margin-top: -10vw;
+    margin-left: -15vw;
+    background-color: #d0a651;
+    color: #3b0073;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    
+
+footer{
+    width: 100%;
+    height: 40vh;
+    
+}
+
+footer .inline-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 6vw;
+}
+footer .inline-div span{
+    margin-left: 60vw;
+    
+}
+footer .inline-div span a{
+   padding-right: 1vw;
+   
+}
+footer .straightLine{
+    width: 100%;
+    height: 2px;
+    background-color: #3b0073;
+    margin-top: 5vw;
+}
+
+footer .lower-div{
+    margin-top: 7vw;
+    font-size: small;
+}
+footer .lower-div .anchor-div{
+    margin-left: 75vw;
+}
+footer .lower-div a{
+    margin-left: .8vw;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#3b0073;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 20%;
+    height: 30vh;
+    margin-left: -8vw;
+    z-index: -11;
+    text-align: center;
+    border: 2px solid goldenrod;
+}
+.dropdown-content a{
+    font-family: "Gibson-SemiRegular" ,sans-serif;
+    font-size: smaller;
+    
+}
+
+.items .navItem .dropdown-content a:hover {
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.navItem:hover .dropdown-content {
+    display: flex;
+    transform: translateY(0%);
+    opacity: 1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:1560)
+{
+    nav logo img{
+        width: 10vw;
+        height: 8vh;
+        
+    }
+    
+    
+}
+@media screen and (max-width:1450){
+    .card .card-content p{
+        font-size: 0.5vw;
+       
+    }
+}
+
+@media screen and (max-width:1150px){
+    nav .logo img {
+        width: 164.99px;
+        height: 51.09px;
+        margin-left: 50px;
+    }
+    nav .items {
+        margin-left: 20px;
+    }
+    .card .card-content p{
+        font-size: 0.7vw;
+       
+    }
+}
+
+@media screen and (max-width:1052px){
+    nav .logo img{
+        width: 164.99px;
+        height: 51.09px;
+        margin-left: 0px;
+    }
+    
+    .toggle_btn{
+        display: block;
+        width: 33.99px;
+        height: 33.99px;
+        
+    }
+    nav .items a{
+        display: none;
+    }
+    nav ul .search-icon{
+        display: none;
+    }
+    .video-container video{
+        height: 150%;
+    }
+    .card .photo1{
+        width: 15vw;
+        height: 15vh;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+    .card .photo2{
+        width: 15vw;
+        height: 15vh;
+        margin-top: 0vw;
+        margin-left: 1vw;
+    }
+    .card .photo3{
+        width: 10vw;
+        height: 10vh;
+        margin-top: 1.5vw;
+        margin-left: 4vw;
+    }
+
+    footer .inline-div{
+        width: 10vw;
+        height: 5vw;
+    }
+    footer .inline-div span {
+       display: flex;
+        width: 1vw;
+        height: 1vh;
+        flex-direction: row;
+        margin-left: 50vw;
+    }
+    footer .inline-div span a img{
+        width: 3vw;
+        height: 3vh;
+    }
+}  
+@media screen and (max-width:580px)
+{
+    .video-container video{
+        margin-top: 85vw;
+        padding-top: 0%;
+
+    }
+    .purrple{
+        display: flex;
+        background-color: #4B0983;
+        width: 100vw;
+        height: 130vh;
+        z-index: 111;
+        margin-top: -900px;
+        padding: 0%;
+    }
+    .text {
+        display: flex;
+        margin-top: -90vh;
+        margin-left: 12vmax;
+       text-align: center;
+      align-items: center;
+
+    }
+    .text .big-text{
+       
+        font-size: 8vw;
+        line-height: 8.5vw;
+    }
+    
+    .text .small-text{
+        font-size: 2.5vw;
+        
+    } 
+    .text .discover-more{
+       
+        width: 28vw;
+        height: 8vw;
+        font-size: 3vw;
+       
+      
+    }
+    .new-creation{
+        margin-top: 60vw;
+    }
+    .image-text h1{
+        font-size: medium;
+    }
+    .image-text h5{
+        font-size: 1.5vw;
+    }
+    .image-text .button-div{
+        display: none;
+    }
+}
+@media screen and (max-width:450px) {  
+    .text {
+        display: flex;
+        margin-top: -106vh;
+        margin-left: 8vmax;
+       text-align: center;
+      align-items: center;
+
+    }
+    .purrple{
+        height: 100vw;
+       margin-top: -140vw;
+    }
+    .text{
+        margin-top: -60vh;
+    }
+    .card .photo1{
+        width: 10vw;
+        height: 10vh;
+        margin-top: 0vw;
+        margin-left: 3vw;
+    }
+    .card .photo2{
+        width: 10vw;
+        height: 10vh;
+        margin-top: -1vw;
+        margin-left: 3vw;
+    }
+    .card .photo3{
+        width: 7vw;
+        height: 7vh;
+        margin-top: 1vw;
+        margin-left: 4vw;
+    }
+    .image-text h1{
+        font-size: medium;
+    }
+    .image-text h5{
+        font-size: 1.5vw;
+    }
+    .image-text button a{
+        font-size: 1vw;
+       display: none;
+    }
+}
